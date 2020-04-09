@@ -22,8 +22,8 @@ public class Main {
         String inputtedString;
 
         while (true) {
-            System.out.println(TTTBoard.symbol.X + " has " + xScore + " point(s).");
-            System.out.println(TTTBoard.symbol.O + " has " + oScore + " point(s).");
+            System.out.println(Board.player.X + " has " + xScore + " point(s).");
+            System.out.println(Board.player.O + " has " + oScore + " point(s).");
 
             System.out.println("Type '" + playAgain + "' to play again!");
             inputtedString = input.nextLine();
